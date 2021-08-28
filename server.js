@@ -12,17 +12,17 @@ app.use(express.static('public'));
 
 const storeItems = new Map([
     [1, { priceInCents: 14999, name: "Watch 1", 
-    image: "https://raw.githubusercontent.com/simonGrasinovski/e-commerce-with-payment-system/master/public/Images/Watch%201.jpg" }],
+    image: "https://raw.githubusercontent.com/simonGrasinovski/e-commerce-with-payment-system/master/public/images/Watch%201.jpg" }],
     [2, { priceInCents: 12999, name: "Watch 2",
-    image: "https://raw.githubusercontent.com/simonGrasinovski/e-commerce-with-payment-system/master/public/Images/Watch%202.jpg" }],
+    image: "https://raw.githubusercontent.com/simonGrasinovski/e-commerce-with-payment-system/master/public/images/Watch%202.jpg" }],
     [3, { priceInCents: 17999, name: "Watch 3",
-    image: "https://raw.githubusercontent.com/simonGrasinovski/e-commerce-with-payment-system/master/public/Images/Watch%203.jpg" }],
+    image: "https://raw.githubusercontent.com/simonGrasinovski/e-commerce-with-payment-system/master/public/images/Watch%203.jpg" }],
     [4, { priceInCents: 19999, name: "Watch 4",
-    image: "https://raw.githubusercontent.com/simonGrasinovski/e-commerce-with-payment-system/master/public/Images/Watch%204.jpg" }],
+    image: "https://raw.githubusercontent.com/simonGrasinovski/e-commerce-with-payment-system/master/public/images/Watch%204.jpg" }],
     [5, { priceInCents: 3999, name: "Bracelet 1",
-    image: "https://raw.githubusercontent.com/simonGrasinovski/e-commerce-with-payment-system/master/public/Images/Bracelet%201.jpg" }],
+    image: "https://raw.githubusercontent.com/simonGrasinovski/e-commerce-with-payment-system/master/public/images/Bracelet%201.jpg" }],
     [6, { priceInCents: 2999, name: "Bracelet 2",
-    image: "https://raw.githubusercontent.com/simonGrasinovski/e-commerce-with-payment-system/master/public/Images/Bracelet%202.jpg" }],
+    image: "https://raw.githubusercontent.com/simonGrasinovski/e-commerce-with-payment-system/master/public/images/Bracelet%202.jpg" }],
   ]);
 
 app.get('/', (req, res) => {
